@@ -3,16 +3,15 @@
     xmlns="http://maven.apache.org/POM/4.0.0"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung.orderservice</groupId>
-    <artifactId>order-client</artifactId>
+    <artifactId>client</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>order-client</name>
-    <description>Order service client module</description>
+    <name>service client module</name>
+    <description>service client module</description>
     <url>http://projects.spring.io/spring-boot/</url>
 
     <parent>
-        <groupId>com.baeldung.orderservice</groupId>
-        <artifactId>order-service</artifactId>
+        <artifactId>service</artifactId>
+        <groupId>io.instacode.microservices.spring</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 

@@ -3,10 +3,10 @@
     xmlns="http://maven.apache.org/POM/4.0.0"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung.orderservice</groupId>
-    <artifactId>order-service</artifactId>
+    <groupId>io.instacode.microservices.spring</groupId>
+    <artifactId>service</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>order-service</name>
+    <name>InstaCode Microservices Service</name>
     <packaging>pom</packaging>
 
     <parent>
@@ -16,8 +16,8 @@
     </parent>
 
     <modules>
-        <module>order-client</module>
-        <module>order-server</module>
+        <module>client</module>
+        <module>server</module>
     </modules>
 
     <dependencyManagement>
